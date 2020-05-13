@@ -1,0 +1,21 @@
+server:
+  port: 8081
+  servlet:
+    context-path:
+
+spring:
+  application:
+    name: Virtual-HSM
+    version: 1.20.05.12
+  h2:
+    console:
+      enabled: true
+
+app:
+  security:
+    authentication:
+      jwt:
+        # https://www.base64encode.org/
+        secret-key: ZURvY1NpZ25fdjI= #ZGVtbw==
+        token-validity-in-seconds: 600
+        token-validity-in-seconds-remember-me: 86400
