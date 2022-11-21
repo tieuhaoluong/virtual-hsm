@@ -13,4 +13,4 @@ FROM openjdk:11
 EXPOSE 8080
 
 #run the app
-ENTRYPOINT ["java", "-jar", "target/app.jar"]
+ENTRYPOINT ["java", "-jar", "target/virtual-hsm-1.0.1-SNAPSHOT.jar"]
