@@ -29,7 +29,7 @@ RUN ls
 
 COPY --from=build /home/app/target/virtual-hsm-1.0.1-SNAPSHOT.jar /home/app/app.jar
 
-EXPOSE 8080
+EXPOSE 8081
 
 RUN ls
 
